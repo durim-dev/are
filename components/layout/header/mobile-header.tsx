@@ -17,7 +17,7 @@ export const MobileHeader = () => {
         "fixed top-0 left-0 w-screen z-50 py-6 px-5 bg-background",
         isOpen
           ? "shadow-none rounded-none duration-0"
-          : "shadow rounded-sm duration-300 delay-300",
+          : "shadow rounded-sm duration-100 delay-100",
       )}
     >
       <div className="flex items-center justify-between">
@@ -40,7 +40,7 @@ export const MobileHeader = () => {
 
       <nav
         className={cn(
-          "absolute left-0 overflow-hidden w-full transition-all duration-300 ease-in bg-background shadow-bottom",
+          "absolute left-0 overflow-hidden w-full transition-all duration-100 ease-in bg-background shadow-bottom",
           isOpen
             ? "max-h-fit opacity-100 rounded-b-sm pt-20"
             : "max-h-fit opacity-0",
