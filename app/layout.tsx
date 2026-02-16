@@ -36,10 +36,8 @@ export default function RootLayout({
       <body
         className={`${crimsonText.variable} ${dmSans.variable} ${robotoMono.variable} antialiased`}
       >
-        <div className="px-3 md:px-6">
-          <Header />
-          {children}
-        </div>
+        <Header />
+        {children}
       </body>
     </html>
   );
