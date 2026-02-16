@@ -4,7 +4,7 @@ import { MobileHeader } from "./mobile-header";
 export const Header = () => {
   return (
     <>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex px-3 md:px-6">
         <DesktopHeader />
       </div>
 
