@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Crimson_Text, DM_Sans, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/header/header";
+import { Footer } from "@/components/layout/footer";
 
 export const crimsonText = Crimson_Text({
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
