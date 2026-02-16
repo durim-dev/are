@@ -7,12 +7,12 @@ const MotionImage = motion(Image);
 
 export const Hero = () => {
   return (
-    <section className="flex flex-col items-center text-center gap-10">
+    <section className="flex flex-col items-center text-center gap-14">
       <motion.h1
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, ease: "easeOut" }}
-        className="text-7xl md:text-[140px] lg:text-[160px] font-serif"
+        className="text-7xl md:text-[140px] lg:text-[150px] font-serif"
       >
         Browse everything.
       </motion.h1>
