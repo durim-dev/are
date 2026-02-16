@@ -1,29 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Logo } from "./logo";
-import { LearnMoreBtn } from "./learn-more-btn";
-import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-
-const navLinks = [
-  {
-    name: "Benefits",
-    href: "/#benefits",
-  },
-  {
-    name: "Specifications",
-    href: "/#specifications",
-  },
-  {
-    name: "How-to",
-    href: "/#how-to",
-  },
-  {
-    name: "Contact Us",
-    href: "/#contact-us",
-  },
-];
+import { navLinks } from "@/components/layout/constants/nav-links";
+import { LearnMoreBtn } from "./learn-more-btn";
+import { Logo } from "./logo";
 
 export const DesktopHeader = () => {
   // const [isScrolled, setIsScrolled] = useState(false);

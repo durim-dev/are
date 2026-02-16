@@ -3,11 +3,11 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { useState } from "react";
-import { navLinks } from "./nav-links";
 import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/icons";
 import { Logo } from "./logo";
 import { LearnMoreBtn } from "./learn-more-btn";
+import { navLinks } from "@/components/layout/constants/nav-links";
 
 export const MobileHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
