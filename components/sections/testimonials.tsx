@@ -29,7 +29,7 @@ export const Testimonials = () => {
           height={343}
         />
 
-        <div className="flex flex-col items-start justify-center gap-7">
+        <div className="flex flex-2 flex-col items-start justify-center gap-7">
           <p className="text-3xl md:text-[40px] font-medium font-serif">
             “I was skeptical, but Area has completely transformed the way I
             manage my business. The data visualizations are so clear and
