@@ -4,7 +4,7 @@ import { FadeIn } from "../ui/fade-in";
 export const Testimonials = () => {
   return (
     <section>
-      <FadeIn className="flex flex-col md:flex-row gap-14">
+      <FadeIn className="flex flex-col lg:flex-row gap-14">
         <Image
           alt="testimonials"
           src="/images/testimonials/testimonials-desktop.png"
