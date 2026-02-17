@@ -1,6 +1,7 @@
 import { Benefits } from "@/components/sections/benefits";
 import { Features } from "@/components/sections/features";
 import { Hero } from "@/components/sections/hero";
+import { Specifications } from "@/components/sections/specifications";
 import { TrustedBy } from "@/components/sections/trusted-by";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Benefits />
       <Features />
       <hr />
+      <Specifications />
     </main>
   );
 }
