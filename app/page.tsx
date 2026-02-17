@@ -1,4 +1,5 @@
 import { Benefits } from "@/components/sections/benefits";
+import { Features } from "@/components/sections/features";
 import { Hero } from "@/components/sections/hero";
 import { TrustedBy } from "@/components/sections/trusted-by";
 
@@ -9,6 +10,8 @@ export default function Home() {
       <TrustedBy />
       <hr />
       <Benefits />
+      <Features />
+      <hr />
     </main>
   );
 }
