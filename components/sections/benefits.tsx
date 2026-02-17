@@ -35,7 +35,7 @@ const MotionImage = motion(Image);
 
 export const Benefits = () => {
   return (
-    <section className="flex flex-col gap-24">
+    <section className="flex flex-col gap-24 scroll-mt-24" id="benefits">
       <div className="flex flex-col gap-12 md:gap-8">
         <h2 className="text-primary text-xs font-mono">Benefits</h2>
         <p className="text-5xl md:text-6xl font-serif">

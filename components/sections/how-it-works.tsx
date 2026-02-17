@@ -19,7 +19,7 @@ export const how = [
 
 export const HowItWorks = () => {
   return (
-    <section>
+    <section id="how-to" className="scroll-mt-24">
       <FadeIn className="flex flex-col items-center gap-20">
         <div className="flex flex-col items-start justify-between gap-10 md:items-start md:flex-row">
           <p className="text-5xl font-serif md:text-6xl">Map Your Success</p>

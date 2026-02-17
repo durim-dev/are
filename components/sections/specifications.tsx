@@ -34,7 +34,7 @@ export const specs = [
 
 export const Specifications = () => {
   return (
-    <section>
+    <section id="specifications" className="scroll-mt-24">
       <FadeIn className="flex flex-col gap-32">
         <div className="flex flex-col gap-10 text-center">
           <h2 className="text-primary text-xs font-mono">Specs</h2>
