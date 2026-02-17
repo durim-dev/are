@@ -1,6 +1,7 @@
 import { Benefits } from "@/components/sections/benefits";
 import { Features } from "@/components/sections/features";
 import { Hero } from "@/components/sections/hero";
+import { HowItWorks } from "@/components/sections/how-it-works";
 import { Specifications } from "@/components/sections/specifications";
 import { Testimonials } from "@/components/sections/testimonials";
 import { TrustedBy } from "@/components/sections/trusted-by";
@@ -17,6 +18,8 @@ export default function Home() {
       <Specifications />
       <hr className="md:hidden" />
       <Testimonials />
+      <hr />
+      <HowItWorks />
     </main>
   );
 }
