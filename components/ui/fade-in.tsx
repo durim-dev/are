@@ -23,7 +23,7 @@ export const FadeIn = ({
       className={className}
       initial={{ opacity: 0, y, scale }}
       whileInView={{ opacity: 1, y: 0, scale: 1 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration, delay }}
     >
       {children}
