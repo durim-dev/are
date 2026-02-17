@@ -1,4 +1,5 @@
 import { Benefits } from "@/components/sections/benefits";
+import { Cta } from "@/components/sections/cta";
 import { Features } from "@/components/sections/features";
 import { Hero } from "@/components/sections/hero";
 import { HowItWorks } from "@/components/sections/how-it-works";
@@ -8,7 +9,7 @@ import { TrustedBy } from "@/components/sections/trusted-by";
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-20 md:gap-32 min-h-screen max-w-7xl mx-auto w-full px-4 pt-32 md:px-10 md:pt-0 ">
+    <main className="flex flex-col gap-20 md:gap-32 min-h-screen max-w-7xl mx-auto w-full px-4 pt-32 md:px-10 md:pt-0 pb-20">
       <Hero />
       <TrustedBy />
       <hr />
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <hr />
       <HowItWorks />
+      <Cta />
     </main>
   );
 }

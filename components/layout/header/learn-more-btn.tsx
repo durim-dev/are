@@ -1,11 +1,15 @@
 import { Icons } from "@/components/icons";
 import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-export const LearnMoreBtn = () => {
+export const LearnMoreBtn = ({ className }: React.ComponentProps<"button">) => {
   return (
     <Button
-      className="text-md md:text-sm flex items-center gap-0.5 group"
+      className={cn(
+        "text-md md:text-sm flex items-center gap-0.5 group",
+        className,
+      )}
       asChild
       size="lg"
     >
