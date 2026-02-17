@@ -26,7 +26,7 @@ export const TrustedBy = () => {
         Trusted by:
       </motion.p>
 
-      <div className="md:pl-16">
+      <div className="lg:pl-16">
         <motion.div
           className="grid grid-cols-3 md:grid-cols-6 gap-6 items-center"
           initial="hidden"
